@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <section class="row" aria-labelledby="aspnetTitle">
+        <h1 id="title">Expense Tracker</h1>
+        <p class="lead">
+            Track your spending habits with ease with this personalised expense tracking system.
+        </p>
+ 
+
+        <div class="card" style="margin-bottom: 20px;">
+            <div class="card-body">
+                    <h2 id="gettingStartedTitle">Features</h2>
+                    <p class="mb-0">Track your expenses based on different categories.</p>
+                    <p class="mb-0">Add multiple cards and track expenses in each card.</p>
+                    <p class="mb-0">Update an expense.</p>
+                    <p class="mb-0">Delete an expense, category or card.</p>
+                    <p class="mb-0">Track your total spendings in each category</p>
+                    <p class="mb-0">Track your total expenses in each card.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="row">
+        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
+            <h2 id="gettingStartedTitle">All Cards</h2>
+            <p>
+                Track your expenses in each card.
+            </p>
+            <p><a class="btn btn-outline-dark" href="/Card/List">View Cards &raquo;</a></p>
+        </section>
+        <section class="col-md-4" aria-labelledby="librariesTitle">
+            <h2 id="librariesTitle">All Expenses</h2>
+            <p>Track your total expenses here</p>
+            <p><a class="btn btn-outline-dark" href="/Expense/List">View Expenses &raquo;</a></p>
+        </section>
+     
+    </div>
+</main> 
