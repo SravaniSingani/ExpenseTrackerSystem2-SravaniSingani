@@ -43,4 +43,4 @@ The expense tracking system helps users log and track their personal spendings. 
 - Search for a specific entry
 - Filter spendings by date
 - View maximum spendings by category
-- Visualize expenses with bar plots or charts to see maximum spending on each card or category
+- Visualize expenses with bar plots and charts to see maximum spending on each card or category
